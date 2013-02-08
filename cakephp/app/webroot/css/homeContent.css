@@ -1,0 +1,58 @@
+/*
+iv id="content">
+		<div class="contmorcaux">
+			<div class="blocMorcaux">
+				<a href=""><?php echo $this->Html->image('image.png');?></a>
+				<a href=""><span class="blue"></span>This is it</a>
+				<p>Par<a href="">Micheal Jackson</a></p>
+			</div>
+			*/
+
+			/* - - - BOX MORCAUX - - - */
+#content
+{
+	/*border: 1px solid #292929;*/
+	margin: 25px;
+
+}
+.contmorcaux
+{
+		margin: 0 auto;
+	width: 80%;
+}
+.blocMorcaux
+{
+	background: #545454; /* Old browsers */
+	background: -moz-linear-gradient(top,  #545454 1%, #1a1a1a 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#545454), color-stop(99%,#1a1a1a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #545454 1%,#1a1a1a 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #545454 1%,#1a1a1a 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #545454 1%,#1a1a1a 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #545454 1%,#1a1a1a 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', endColorstr='#1a1a1a',GradientType=0 ); /* IE6-9 */
+	padding:20px;
+	float: left;
+	margin: 10px;
+}
+.blocMorcaux img
+{
+	display: block;
+}
+.blocMorcaux a
+{
+	display: inline;
+	text-decoration: none;
+	color: #FFF;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
