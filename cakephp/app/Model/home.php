@@ -2,7 +2,7 @@
 	/**
 	* L'objet Home, pour les users inscrit ou pas. 
 	*/
-	class Home extends AppModdel
+	class Home extends AppModel
 	{
 		function index()
 	{

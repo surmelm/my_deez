@@ -1,8 +1,19 @@
+.sousTitre
+{
+	margin-bottom: 15px;
+}
 table
 {
 	color: #FFF;
+	border: 1px solid #FFF;
+	margin: 15px;
 }
 td
 {
 	padding: 15px;
+	border: 1px solid #FFF;
+}
+form
+{
+	color: #FFF;
 }

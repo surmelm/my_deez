@@ -3,6 +3,7 @@
 <html>
 <head>
 	<title>My_deez</title>
+	<?php echo $this->Html->charset(); ?>
 	<?php echo $this->Html->css('home.css'); ?>
 	<?php echo $this->Html->css('reset.css'); ?>
 	<?php echo $this->Html->css('homeContent.css'); ?>
@@ -41,7 +42,7 @@
 			</div>
 			<div class="clear"></div>
 		</div>
-		<div id="contOnglet">
+		<div class="contOnglet">
 			<div class="contLeft">
 				<ul>
 					<li><a href="">Accueil</a></li>

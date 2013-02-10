@@ -1,7 +1,7 @@
 <?php
 
 	/**
-	* L'objet Home, pour les users inscrit ou pas. 
+	* L'objet Home, pour les users inscrit ou pas.  test
 	*/
 	class AdminController extends AppController
 	{
